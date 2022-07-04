@@ -45,4 +45,5 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 CloudFront URL: https://d1kx82dgc537cr.cloudfront.net
-S3-website: http://node-in-aws-second-task-bucket.s3-website-us-east-1.amazonaws.com
+CloudFront URL manually created: https://d2sdg10zqn0w8w.cloudfront.net
+S3-website: http://my-first-nodejs-in-aws-bucket.s3-website-eu-west-1.amazonaws.com/
