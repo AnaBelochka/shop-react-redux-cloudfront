@@ -46,4 +46,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 CloudFront URL: https://d1kx82dgc537cr.cloudfront.net
 CloudFront URL manually created: https://d2sdg10zqn0w8w.cloudfront.net
-S3-website: http://my-first-nodejs-in-aws-bucket.s3-website-eu-west-1.amazonaws.com/
+S3-website manually created: http://my-first-nodejs-in-aws-bucket.s3-website-eu-west-1.amazonaws.com/
