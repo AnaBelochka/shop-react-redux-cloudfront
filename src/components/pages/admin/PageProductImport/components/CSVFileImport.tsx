@@ -18,6 +18,8 @@ export default function CSVFileImport({url, title}: CSVFileImportProps) {
   const classes = useStyles();
   const [file, setFile] = useState<any>();
 
+  const authorization_token = localStorage.getItem('authorization_token');
+
   const onFileChange = (e: any) => {
     console.log(e);
     let files = e.target.files || e.dataTransfer.files
@@ -36,8 +38,8 @@ export default function CSVFileImport({url, title}: CSVFileImportProps) {
         url,
         params: {
           name: encodeURIComponent(file.name)
-        }
-      })
+        },
+      });
       console.log('File to upload: ', file.name)
       console.log('Uploading to: ', response.data.signedUrl)
       const result = await fetch(response.data.signedUrl, {
